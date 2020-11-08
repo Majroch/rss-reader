@@ -7,7 +7,13 @@ This is my small RSS reader written in Python 3.
 
 This program was written for Linux, not meant to be launched on Windows.
 
-### 1. Usage
+### 1. Pre-requirements
+First of all, install required packages:
+```bash
+sudo pip install -r requirements.txt
+```
+
+### 2. Usage
 You'll need a `rss.txt` file that contains all links to your favourite RSS sites:
 ```
 https://example.com/rss.xml
